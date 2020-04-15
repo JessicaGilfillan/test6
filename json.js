@@ -14,8 +14,7 @@ let map = new google.maps.Map(div, {
 let marker=new google.maps.Marker({position:deliveryLocation,map:map});
 }
 
-
-let weirdDealsPromise = fetch('https://jessicagilfillan.github.io/test6/weird.json')
+fetch('https://jessicagilfillan.github.io/test6/weird.json')
  .then(function(response){ 
     //returning the json response 
     return response.json();
