@@ -55,7 +55,7 @@ let weirdDealsPromise = fetch('https://jessicagilfillan.github.io/test6/weird.js
 				section.appendChild(article);
 				}
     });
-/*var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
 var type = connection.effectiveType;
 connection.addEventListener('change', updateConnectionStatus);
 function updateConnectionStatus() {
@@ -66,7 +66,7 @@ function updateConnectionStatus() {
         foot.append(para);
         console.log(sentence);
         type = connection.effectiveType;
-}*/
+}
 
                     
 
