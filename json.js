@@ -1,5 +1,3 @@
-/*let section = document.querySelector('section'); 
-
 function initMap() {
   
 let deliveryLocation = {
@@ -7,14 +5,14 @@ let deliveryLocation = {
     lng: -79.6655338
   }; 
     
-let div = document.querySelector('div'); 
+let div = document.querySelector('#map'); 
 //create new map object
 let map = new google.maps.Map(div, {
   zoom: 10,
   center: deliveryLocation
 });
 let marker=new google.maps.Marker({position:deliveryLocation,map:map});
-}*/
+}
 
 
 let weirdDealsPromise = fetch('https://jessicagilfillan.github.io/test6/weird.json')
