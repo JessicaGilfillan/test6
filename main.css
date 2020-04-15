@@ -73,6 +73,11 @@ footer  {
   text-align:center; 
 }
 
+#map {
+ height: 400px; 
+ width: 400px; 
+}
+
 footer p {
  font-size: 14; 
   color: deeppink; 
