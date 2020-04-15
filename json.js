@@ -57,7 +57,6 @@ let weirdDealsPromise = fetch('https://sodvadiyavidhi.github.io/ScriptLab/weird.
 				section.appendChild(article);
 				}
     });
-}
 /*var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
 var type = connection.effectiveType;
 connection.addEventListener('change', updateConnectionStatus);
